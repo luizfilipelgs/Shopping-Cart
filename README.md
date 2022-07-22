@@ -8,19 +8,7 @@
 
 ## O que foi desenvolvido 
 
-Foi desenvolvido um carrinho de compras totalmente dinâmico! shopping_cart
-
-Para isso, foi necessario consumir dados diretamente de uma API do Mercado Livre para buscar produtos à venda. label
-
-Asiim como pôr em prática o desenvolvimento orientado a testes, o famoso TDD (Test Driven Development)! Que ajuda a garantir um código de qualidade, percebendo os casos de uso da sua aplicação e garantindo que ela está funcionando da maneira correta! rocket
-
-E não para por aí! star_struck
-
-Você já aprendeu sobre a importância de ter uma mentalidade orientada a testes, não é mesmo? E também já sabe como a implementação de testes contribui para a escrita de códigos mais confiáveis e com boa performance.
-
-Nesse projeto você vai ter a experiência de pôr em prática o desenvolvimento orientado a testes, o famoso TDD (Test Driven Development)! Que te ajuda a garantir um código de qualidade, percebendo os casos de uso da sua aplicação e garantindo que ela está funcionando da maneira correta! rocket
-
-
+Foi desenvolvido um carrinho de compras totalmente dinâmico! Para isso, foi necessario consumir dados diretamente de uma API do Mercado Livre para buscar produtos à venda. Assim como pôr em prática o desenvolvimento orientado a testes, o famoso TDD (Test Driven Development)! Que ajuda a garantir um código de qualidade, percebendo os casos de uso da sua aplicação e garantindo que ela está funcionando da maneira correta! 
 
 ## Requisitos Obrigatórios 
 
