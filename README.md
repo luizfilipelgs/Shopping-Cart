@@ -4,7 +4,7 @@
 <br/>
 <br/>
 
-#### Link:
+#### Link: https://luizfilipelgs.github.io/Shopping-Cart/
 
 ## O que foi desenvolvido 
 
