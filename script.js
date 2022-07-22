@@ -3,7 +3,7 @@ const items = document.querySelector('.items');
 
 const totalPrice = async () => {
   const div = document.querySelector('.total-price');
-  const li = document.querySelectorAll('.cart__item');
+  const li = document.querySelectorAll('.cart__item p');
   const arrayLi = [...li];
   const priceLi = arrayLi.map((element) => Number(element.innerText.split('$')[1]));
   console.log(`valores li ${priceLi}`);
@@ -59,13 +59,13 @@ const getLocalStorage = () => {
 
 const cartItemClickListener = (event) => {
   console.log(event);
-  event.target.remove();
+  event.path[1].remove();
   saveLocalStorage();
   totalPrice();
 };
 
 const addListernerInProductsCar = () => {
-  const productsCart = document.querySelectorAll('.cart__item');
+  const productsCart = document.querySelectorAll('.trash');
   productsCart.forEach((product) => {
     product.addEventListener('click', cartItemClickListener);
   });
@@ -74,14 +74,13 @@ const addListernerInProductsCar = () => {
 const createCartItemElement = ({ sku, name, salePrice, img }) => {
   const div = document.createElement('div');
   const p = document.createElement('p');
-  const delet = document.createElement('img');
-  div.className = 'cart__item';
+    div.className = 'cart__item';
   div.appendChild(createProductImageCart(img));
-  div.appendChild(p);
-  //div.appendChild(delet.innerHTML = "<img src='imagens/delet.png'>");
+  div.appendChild(p);   
+  const trash = createCustomElement('button', 'trash', 'X');
+  trash.addEventListener('click', cartItemClickListener);
+  div.appendChild(trash);
   p.innerText = `${name} | Preço: R$ ${salePrice}`; /* Cod: ${sku} |  */
-  div.addEventListener('click', cartItemClickListener);
-  addListernerInProductsCar();
   console.log(img);
   return div;
 };
