@@ -149,10 +149,15 @@ const fetchParametersProducts = async (product) => {
   addListernerAllBtn();
 };
 
+const cleanInputText = () => {
+  document.querySelector('#input-src').value = '';
+};
+
 const searchProduct = () => {
   const textInput = document.querySelector('#input-src').value;
   console.log(textInput);
   fetchParametersProducts(textInput);
+  cleanInputText();
   };
 
 const addListernerBtnSrc = () => {
