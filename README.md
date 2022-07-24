@@ -1,7 +1,7 @@
 # Boas-vindas ao repositório do projeto Carrinho de Compras!
 
 <div align="center">
-  <img align="center" src = "/shopping-cart.gif" width=250 />
+  <img align="center" src = "/shopping-cart.gif" width=800 />
  </div>
 <br/>
 <br/>
