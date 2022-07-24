@@ -8,7 +8,9 @@
 
 ## O que foi desenvolvido 
 
-Foi desenvolvido um carrinho de compras totalmente dinâmico! Para isso, foi necessario consumir dados diretamente de uma API do Mercado Livre para buscar produtos à venda. Assim como pôr em prática o desenvolvimento orientado a testes, o famoso TDD (Test Driven Development)! Que ajuda a garantir um código de qualidade, percebendo os casos de uso da sua aplicação e garantindo que ela está funcionando da maneira correta! 
+ Foi desenvolvido um carrinho de compras totalmente dinâmico! para isso, foi necessário consumir dados diretamente de uma API do Mercado Livre para buscar produtos à venda, este projeto exigiu conhecimento de funções assíncronas, manipulação de objetos e arrays, selecionamento de elementos via DOM, utilização de eventos e HOFs.
+
+Assim como pôr em prática o desenvolvimento orientado a testes, o famoso TDD (Test Driven Development), que ajuda a garantir um código de qualidade, percebendo os casos de uso da sua aplicação e garantindo que ela está funcionando da maneira correta!
 
 ## Requisitos Obrigatórios 
 
