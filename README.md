@@ -17,13 +17,24 @@ Assim como pôr em prática o desenvolvimento orientado a testes, o famoso TDD (
 ## Requisitos Obrigatórios 
 
 - [x] (TDD) Desenvolva testes de no mínimo 25% de cobertura total e 100% da função fetchProducts.
+
 - [x] Crie uma listagem de produtos.
+
 - [x] (TDD) Desenvolva testes de no mínimo 50% de cobertura total e 100% da função fetchItem.
+
 - [x] Adicione o produto ao carrinho de compras.
+
 - [x] Remova o item do carrinho de compras ao clicar nele.
+
 - [x] (TDD) Desenvolva testes de no mínimo 75% de cobertura total e 100% da função saveCartItems.
-- [x] (TDD) Desenvolva testes para atingir 100% de cobertura total e 100% da função getSavedCartItems.
+
+- [x] (TDD) Desenvolva testes para atingir 100% de cobertura total e 100% da função 
+getSavedCartItems.
+
 - [x] Carregue o carrinho de compras ao iniciar a página.
+
 - [x] Calcule o valor total dos itens do carrinho de compras.
+
 - [x] Limpe o carrinho de compras.
+
 - [x] Adicione um texto de carregando durante uma requisição à API.
