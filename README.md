@@ -1,6 +1,6 @@
 # Boas-vindas ao repositório do projeto Carrinho de Compras!
 
-![Tela do Projeto](/tela.jpeg)
+![Tela do Projeto](/shopping-cart.gif)
 <br/>
 <br/>
 
